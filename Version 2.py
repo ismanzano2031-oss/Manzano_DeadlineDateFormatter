@@ -1,0 +1,12 @@
+from datetime import date
+event = input("Enter event title: ")
+year = input("Enter year: ")
+month = input("Enter month: ")
+day = input("Enter day: ")
+date = date(year, month, day)
+print(f"Event: {event.title()}")
+print(f"Date: {month.title(), day, year}")
+print(f"Year: {year}")
+print(f"Month: {month}")
+print(f"Day: {day}")
+print(f"Weekday: {date.strftime("%A")}")
